@@ -10,4 +10,4 @@ RUN python manage.py collectstatic --noinput
 #CMD python manage.py  migrate
 
 #CMD gunicorn --workers=1 --bind 0.0.0.0:80 djecommerce.wsgi
-CMD python manage.py runserver
+CMD python manage.py runserver 0:80
