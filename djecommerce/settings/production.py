@@ -1,5 +1,6 @@
 from .base import *
 
+SECRET_KEY = 'kym*cd$co*+idvf%n(3wk3yp5b2gm!in2q$l^ehstf@gz99sf@'
 DEBUG = config('DEBUG', cast=bool)
 # ALLOWED_HOSTS = ['ip-address', 'www.your-website.com']
 ALLOWED_HOSTS = ["*"]

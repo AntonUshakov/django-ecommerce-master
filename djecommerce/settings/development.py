@@ -6,7 +6,7 @@ ALLOWED_HOSTS = ['djecommerce.local.pg-dev.com', '127.0.0.1']
 INSTALLED_APPS += [
     'debug_toolbar'
 ]
-
+SECRET_KEY = 'kym*cd$co*+idvf%n(3wk3yp5b2gm!in2q$l^ehstf@gz99sf@'
 MIDDLEWARE += ['debug_toolbar.middleware.DebugToolbarMiddleware', ]
 
 # DEBUG TOOLBAR SETTINGS
